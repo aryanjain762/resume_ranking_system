@@ -10,7 +10,7 @@ LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 # API configuration
-API_KEY = os.getenv("GROQ_API_KEY", "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")
+API_KEY = os.getenv("GROQ_API_KEY", "")
 MODEL_NAME = os.getenv("MODEL_NAME", "llama3-70b-8192")
 
 # FastAPI configuration
